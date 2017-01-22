@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Assembly-CSharp</name>
+    </assembly>
+    <members>
+        <member name="T:TestNamespace.ExampleClass">
+            <summary>
+            Example class. Inline code: <c>string s = "str"; // Some code</c> 
+            </summary>
+            <example>
+            Some example:
+            <code>
+            int x = 42;
+            int y = 0;
+            </code>
+            </example>
+            <remarks>
+            You may have some additional information about this class.
+            </remarks>
+        </member>
+        <member name="P:TestNamespace.ExampleClass.Name">
+            <summary>The Name property represents the employee's name.</summary>
+            <value>The Name property gets/sets the value of the string field, _name.</value>
+        </member>
+        <member name="M:TestNamespace.ExampleClass.SimpleMethod">
+            <summary>
+            Basic method and see it inline: <see cref="M:TestNamespace.ExampleClass.MethodReturns"/>
+            </summary>
+            <exception cref="T:System.Exception">Thrown when...</exception>
+            <permission cref="T:System.Security.PermissionSet">Everyone can access this method.</permission>
+        </member>
+        <member name="M:TestNamespace.ExampleClass.MethodReturns">
+            <summary>
+            Method that returns
+            </summary>
+            <returns>integer</returns>
+            <seealso cref="M:TestNamespace.ExampleClass.MethodWithParam(System.Int32)"/>
+        </member>
+        <member name="M:TestNamespace.ExampleClass.MethodWithParam(System.Int32)">
+            <summary>
+            Method with param <paramref name="x"/> and return
+            </summary>
+            <param name="x">some param</param>
+            <returns>some return</returns>
+        </member>
+        <member name="M:TestNamespace.ExampleClass.MethodWithParams(System.Int32,System.Int32,System.String,TestNamespace.ExampleClass,TestNamespace.ExampleStruct)">
+            <summary>
+            Method with params
+            </summary>
+            <param name="a"></param>
+            <param name="x">int param</param>
+            <param name="y">string param</param>
+            <param name="z">class param</param>
+            <param name="w">struct param</param>
+        </member>
+        <member name="M:TestNamespace.ExampleClass.Generic``2(``1)">
+            <summary>
+            Generic method with <typeparamref name="T2"/> param
+            </summary>
+            <param name="arg">T2 param</param>
+            <returns>T1</returns>
+        </member>
+        <member name="T:TestNamespace.ExampleEnum">
+            <summary>
+            Example enum
+            </summary>
+        </member>
+        <member name="F:TestNamespace.ExampleEnum.EnumValue0">
+            <summary>
+            Enum field 1	
+            </summary>
+        </member>
+        <member name="F:TestNamespace.ExampleEnum.EnumValue1">
+            <summary>
+            Enum field 2	
+            </summary>
+        </member>
+        <member name="T:TestNamespace.ExampleStruct">
+            <summary>
+            Struct summary
+            </summary>
+        </member>
+        <member name="F:TestNamespace.ExampleStruct.StructField">
+            <summary>
+            Struct field
+            </summary>
+        </member>
+        <member name="P:TestNamespace.ExampleStruct.StructProperty">
+            <summary>
+            Struct property
+            </summary>
+        </member>
+        <member name="M:TestNamespace.ExampleStruct.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Struct constructor
+            </summary>
+            <param name="x">x param</param>
+            <param name="y">y param</param>
+        </member>
+        <member name="M:TestNamespace.IgnoreNamespace.IgnorableClass.SomeMethod">
+            <summary>
+            Does not want this comment
+            </summary>
+        </member>
+    </members>
+</doc>
