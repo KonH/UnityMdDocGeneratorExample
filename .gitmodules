@@ -1,3 +1,3 @@
-[submodule "MdGenerator"]
-	path = MdGenerator
+[submodule "Assets/UnityMdDocGenerator"]
+	path = Assets/UnityMdDocGenerator
 	url = git@github.com:KonH/UnityMdDocGenerator.git
