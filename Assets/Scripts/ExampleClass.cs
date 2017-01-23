@@ -2,25 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-/// <summary>
-/// Namespace summary.
-/// <para>
-/// Paragraph1
-/// </para>
-/// <para>
-/// Paragraph2
-/// </para>
-/// /// <para>Here is an example of a bulleted list:
-/// <list type="bullet">
-/// <item>
-/// <description>Item 1.</description>
-/// </item>
-/// <item>
-/// <description>Item 2.</description>
-/// </item>
-/// </list>
-/// </para>
-/// </summary>
 namespace TestNamespace {
 	/// <summary>
 	/// Example class. Inline code: <c>string s = "str"; // Some code</c> 
@@ -103,4 +84,55 @@ namespace TestNamespace {
 			return default(T1);
 		}
 	}
+
+	/// <summary>
+	/// Another class summary.
+	/// <para>
+	/// Paragraph1
+	/// </para>
+	/// <para>
+	/// Paragraph2
+	/// </para>
+	/// /// <para>Here is an example of a bulleted list:
+	/// <list type="bullet">
+	/// <item>
+	/// <description>Item 1.</description>
+	/// </item>
+	/// <item>
+	/// <description>Item 2.</description>
+	/// </item>
+	/// </list>
+	/// </para>
+	/// </summary>
+	public class AnotherExampleClass {
+		
+		/// <summary>
+		/// Nested class summary
+		/// </summary>
+		public class NestedClass {
+
+			/// <summary>
+			/// Nested method summary
+			/// </summary>
+			public void NestedMetod() {
+
+			}
+		}
+
+		public class NestedClass2 {
+			/// <summary>
+			/// Nested method summary (2)
+			/// </summary>
+			public void NestedMetod() {
+
+			}
+		}
+	}
+}
+
+/// <summary>
+/// WithoutNamespaceClass summary
+/// </summary>
+class WithoutNamespaceClass {
+
 }

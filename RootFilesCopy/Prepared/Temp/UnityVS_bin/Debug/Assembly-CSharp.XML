@@ -61,6 +61,42 @@
             <param name="arg">T2 param</param>
             <returns>T1</returns>
         </member>
+        <member name="T:TestNamespace.AnotherExampleClass">
+            <summary>
+            Another class summary.
+            <para>
+            Paragraph1
+            </para>
+            <para>
+            Paragraph2
+            </para>
+            /// <para>Here is an example of a bulleted list:
+            <list type="bullet">
+            <item>
+            <description>Item 1.</description>
+            </item>
+            <item>
+            <description>Item 2.</description>
+            </item>
+            </list>
+            </para>
+            </summary>
+        </member>
+        <member name="T:TestNamespace.AnotherExampleClass.NestedClass">
+            <summary>
+            Nested class summary
+            </summary>
+        </member>
+        <member name="M:TestNamespace.AnotherExampleClass.NestedClass.NestedMetod">
+            <summary>
+            Nested method summary
+            </summary>
+        </member>
+        <member name="M:TestNamespace.AnotherExampleClass.NestedClass2.NestedMetod">
+            <summary>
+            Nested method summary (2)
+            </summary>
+        </member>
         <member name="T:TestNamespace.ExampleEnum">
             <summary>
             Example enum
@@ -101,6 +137,11 @@
         <member name="M:TestNamespace.IgnoreNamespace.IgnorableClass.SomeMethod">
             <summary>
             Does not want this comment
+            </summary>
+        </member>
+        <member name="T:WithoutNamespaceClass">
+            <summary>
+            WithoutNamespaceClass summary
             </summary>
         </member>
     </members>
